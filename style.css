@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#form{ max-width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+.heading{
+    background-color:grey;
+    max-width: 80%;
+    box-sizing: border-box;
+    align-items: center;
+    margin: auto;
+    color: white;
+    border-radius: 9px;
+}
+.heading h1{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 25%;
+    color: white;
+}
+.inputs{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+}
+input,textarea{
+    width: 80%;
+    margin: 11px 0px;
+
+}
+
+.btn{
+   margin: auto;
+   padding: 8px 12px;
+   font-family: 20px;
+   background-color: mediumslateblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+.SubmitMsg{
+    color : green;
+    align-items:center ;
+}
